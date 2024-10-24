@@ -66,7 +66,7 @@ int main()
 ~~~c
 #include<stdio.h>
 #include<string.h>
-void delete(char a[])
+void delete(char a[])//删去负号方便运算
 {   
     for(int i=0;a[i]!='\0';i++)
     {
@@ -82,6 +82,7 @@ void minus(char a[],char b[],char result[])
     int N=0;
     int i=len1-1;
     int j=len2-1;
+    //保证是大减小
     if (len1 < len2 || (len1 == len2 && strcmp(a, b) < 0)) {
         N = 1;
         char *x = a;
@@ -121,6 +122,7 @@ void minus(char a[],char b[],char result[])
 void plus(char a[],char b[],char result[])
 {   
     int N=0;
+    //判断符号
     if(a[0]!='-'&&b[0]=='-')
     {
         delete(b);
