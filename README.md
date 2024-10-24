@@ -59,7 +59,8 @@ int main()
     return 0;
 }
 ~~~
-<img width="443" alt="CS-MEDIUM-02" src="https://github.com/user-attachments/assets/b33f8ba3-ba44-4531-98e4-831657a57e2f">
+<img width="614" alt="CS-MEDIUM-01" src="https://github.com/user-attachments/assets/0f7fedc0-4426-48a0-b33b-548f2254c1e5">
+
 
 ##step3
 ~~~c
